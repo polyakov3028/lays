@@ -108,15 +108,21 @@ a {
 }
 
 .top__section {
-  background-image: url("../img/gallery_1.6e98f8b2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100.6%;
+  
   position: relative;
   display: block;
   height: 559px;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.top__section img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: auto;
+  height: 100%;
 }
 
 
@@ -255,7 +261,6 @@ a {
 }
 
 .gallery__block img {
-  background-image: url("../img/gallery_block.d7a874af.jpg");
   background-repeat: no-repeat;
   position: absolute;  
   width: 620px;
@@ -669,9 +674,4 @@ a {
 .youtube__icon {
   background-image: url("../img/youtube.jpeg");
   background-color: #c4070e;
-  background-size: 31px 32px;
-  width: 60px;
-  height: 60px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
