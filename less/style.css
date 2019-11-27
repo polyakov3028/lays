@@ -195,7 +195,7 @@ a {
 }
 
 .gallery__photo__section {
-  height: 623px;
+  height: 633px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -246,14 +246,23 @@ a {
 
 .gallery__block {
   width: 50%;
-  height: 623px;
-  background-image: url("../img/gallery_block.d7a874af.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
   float: left;
   position: relative;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+
+.gallery__block img {
+  background-image: url("../img/gallery_block.d7a874af.jpg");
+  background-repeat: no-repeat;
+  position: absolute;  
+  width: 620px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
 }
 
 .gallery__text__block {
@@ -267,8 +276,6 @@ a {
   font-family: "GothamProBold";
   letter-spacing: 0.3px;
 }
-
-
 
 .gallery__text__block::before {
   content: "";
@@ -304,7 +311,7 @@ a {
   font-size: 22px;
   color: white;
   margin-top: 61px;
-  margin-left: -7px;
+  margin-left: 82px;
   letter-spacing: 1.1px;
 }
 
