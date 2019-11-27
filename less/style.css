@@ -385,7 +385,7 @@ a {
 
 .about__section {
   width: 100%;
-  height: 623px;
+  height: 631px;
   position: relative;
 }
 
@@ -419,7 +419,7 @@ a {
   line-height: 1.05;
   color: white;
   position: absolute;
-  margin-top: 149px;
+  margin-top: 148px;
   margin-left: 290px;
 }
 
@@ -439,7 +439,7 @@ a {
   color: white;
   top: 346px;
   left: 84.5px;
-  font-size: 19.3px;
+  font-size: 19.4px;
   line-height: 1.2;
   font-family: "GothamProRegular";
   
@@ -463,12 +463,10 @@ a {
   padding: 0;
   width: 50%;
   right: 0;
-  height: 100%;
+  height: 636px;
   position: absolute;
-  box-sizing: border-box;
   overflow:hidden;
 }
-
 
 
 .about__animated__image {
@@ -480,8 +478,6 @@ a {
   background-repeat: no-repeat;
   width: auto;
   height: auto;
-  display: block;
-  overflow:hidden;
   transition: transform 10s ease;
   top: -10px;
   right: -10px;
@@ -496,7 +492,7 @@ a {
 .lays__summer__section {
   position: relative;
   width: 100%;
-  height: 623px;
+  height: 632px;
   
 }
 
@@ -506,9 +502,9 @@ a {
   width: 50%;
   float: left;
   height: 100%;
-  position: relative;
+  position: absolute;
   overflow:hidden;
-  box-sizing: border-box;
+
 }
 
 .lays__summer__animated__image {
@@ -537,12 +533,11 @@ a {
 .lays__summer__static__block {
   width: 50%;
   float: right;
-  height: 623px;
+  height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
-  background-size: cover;
-  
+ 
 }
 
 .lays__summer__static__block::before {
@@ -553,26 +548,28 @@ a {
   background-size: 100% 100%;
   width: 67.73px;
   height: 150.53px;
-  top: 250px;
+  top: 248px;
   margin-left: -66px;
+
 }
 
 .lays__summer__static__block img {
   background-size: cover;
+  
 }
 
 .lays__summer__static__block h2 {
   margin: 0;
   padding: 0;
   font-family: "GothamProBold";
-  font-size: 60px;
+  font-size: 57.6px;
+  letter-spacing: 0.5px;
   color: #301f20;
   line-height: 1.05;
   position: absolute;
-  display: block;
-  text-align: center;
-  bottom: 150px;
-  left: 130px;
+  top: 417px;
+  left: 116.5px;
+  
 }
 
 .lays__summer__static__block a {
@@ -580,12 +577,12 @@ a {
   background-color: rgba(143,12,0,.1);
   position: absolute;
   border: 2px solid white;
-  padding: 22px 34px 16px 35px;
-  font-size: 24px;
+  padding: 22px 49px 16px 50px;
+  font-size: 22px;
   font-family: "GothamProRegular";
   color: white;
-  bottom: 60px;
-  left: 230px;
+  bottom: 63px;
+  left: 190px;
   letter-spacing: 1.1px;
 }
 
